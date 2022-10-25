@@ -7,7 +7,7 @@ using Printf: @sprintf
 using SparseArrays: sparse, spzeros
 using LightGraphs
 using SimpleWeightedGraphs
-using Graphs: kruskal_mst, src, dst, closeness_centrality, dijkstra_shortest_paths, bfs_tree
+using Graphs: kruskal_mst, src, dst, closeness_centrality, dijkstra_shortest_paths, bfs_tree, weights
 using StatsBase: mean, ecdf, ECDF, sample
 using LinearAlgebra: issymmetric, Symmetric, I
 
