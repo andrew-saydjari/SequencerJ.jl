@@ -7,7 +7,7 @@ using Printf: @sprintf
 using SparseArrays: sparse, spzeros
 using LightGraphs
 using SimpleWeightedGraphs
-using Graphs
+using Graphs: src, dst
 using StatsBase: mean, ecdf, ECDF, sample
 using LinearAlgebra: issymmetric, Symmetric, I
 
